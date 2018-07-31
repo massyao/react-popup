@@ -1,0 +1,86 @@
+.dialog-container {
+  width: 100%;
+  border: 5px solid #42403c;
+  background-color: white;
+  padding: 0;
+
+  .dialog-header {
+    height: 31px;
+    line-height: 31px;
+    margin: -1px 0 0 0;
+    padding: 0;
+    width: 100%;
+    background-color: #42403C;
+    color: #fff;
+    border: 0px solid #c2c2c2;
+    user-select: none;
+    overflow: hidden;
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px 0 5px;
+    }
+
+    a {
+      color: #fff;
+      text-indent: 10px;
+      text-decoration: none;
+    }
+  }
+
+  .dialog-content {
+    user-select: none;
+    min-height: 100px;
+    padding: 10px;
+    overflow: hidden;
+
+  }
+
+  .dialog-bottombar {
+    border-top: .5px solid #333;
+    padding: 4px 5px 8px 0;
+    margin: 5px 0 4px 0;
+    width: 100%;
+    height: 31px;
+    user-select: none;
+
+    .dialog-bottombar-button {
+      display: inline-block;
+      width: 80px;
+      text-align: center;
+      background-color: #555;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 2px 5px 2px 5px;
+      margin: 2px 15px 4px 5px;
+      float: right;
+      &:hover {
+        background-color: #777;
+      }
+    }
+  }
+}
+
+.popup-row {
+
+  margin: 10px 0 10px 0;
+
+  label {
+    float: left;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  input {
+    width: 100%;
+    height: 24px;
+    margin-left: -24px;
+  }
+
+  select {
+    width: 100%;
+    height: 24px;
+    margin-left: -24px;
+  }
+}
